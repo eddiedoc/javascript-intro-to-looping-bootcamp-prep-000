@@ -53,7 +53,7 @@ describe('loops', () => {
       console.log.reset()
     })
   })
-/*
+
   describe('doWhileLoop(array)', () => {
     it('removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false`', () => {
       const [array, t] = makeArray()
@@ -63,5 +63,5 @@ describe('loops', () => {
 
       expect(newArray).to.have.length.of.at.most(l - 1)
     })
-  })*/
+  })
 })
