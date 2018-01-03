@@ -1,5 +1,5 @@
 function forLoop(array) {
-  for(i=0;i<33;i++) {
+  for(i=0;i<25;i++) {
       array[i] = `I am ${i} strange loop${i===0?'':'s'}.`;
   }  
   
