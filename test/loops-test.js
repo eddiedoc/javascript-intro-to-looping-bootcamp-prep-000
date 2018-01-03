@@ -57,7 +57,7 @@ describe('loops', () => {
   describe('doWhileLoop(array)', () => {
     it('removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false`', () => {
    //  const [array, t] = makeArray()
-   const array = {
+   const array = ['Apple', 'Banana'];
       const l = array.length
 
       const newArray = doWhileLoop(array)
